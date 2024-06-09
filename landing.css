@@ -1,0 +1,491 @@
+*{
+    padding: 0;margin: 0;
+}
+.first{
+    background-color: rgb(13, 66, 48);
+    color: rgb(204, 200, 200);
+    padding: 5px;
+    text-align: center;
+}
+.first a{
+    color: rgb(204, 200, 200);
+}
+.first_container{
+    border: 1px solid black;
+    display: flex;
+    padding: 5px 45px;
+    font-weight: 600;
+    color:  rgb(13, 66, 48);
+}
+.first_container ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 45px;
+}
+.first_container ul li{
+    padding: 0px 10px;
+}
+.branch{
+    font-size: 40px;
+    font-weight: 600;
+}
+.second_container{
+    border: 1px solid black;
+    background-color: white;
+    z-index: 500;
+    display: flex;
+    padding: 10px 45px;
+    font-weight: 700;
+    color:  rgb(13, 66, 48);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.second_container ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    padding: 15px 15px;
+
+}
+.second_container ul li{
+    padding: 0px 13px;
+    font-size: 18px;
+}
+#search{
+    position: absolute;
+    right: 60px;
+    padding: 10px 15px;
+}
+#search button{
+   margin: 0px 10px;
+   padding: 3px 10px;
+   font-size: 15px;
+}
+#design_my_office{
+    background-color: rgb(13, 66, 48);
+    color: rgb(211, 205, 205);
+}
+.main_background img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.4;
+}
+.main_background{
+    background-color: rgba(0, 0, 0, 0.944);
+    z-index: 1;
+}
+.img_contents{
+    position: absolute;
+    top: 50%;
+    color: white;
+    margin: 0px 100px;
+    
+}
+.first01{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px;
+}
+.first02{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+}
+#shope_now{
+   padding: 15px 60px;
+   font-size: 15px;
+   color: rgb(255, 255, 255);
+   background-color: rgba(0, 0, 0, 0.46);
+   margin: 30px ;
+}
+
+.need_help{
+    margin: 0px 30px;
+}
+.need_help a{
+    color: white;
+
+}
+.press_container{
+    border: 2px solid black;
+    background-color:  rgb(5, 54, 38);
+    color: rgb(204, 203, 196);
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+.press01{
+    font-size: 19px;
+}
+.main01{
+    font-size: 35px;
+    
+}
+.theird_container ul{
+     display: flex;
+     position: relative;
+     /* text-align: center; */
+     justify-content: center;
+}
+.theird_container ul li{
+    list-style: none;
+    padding: 50px 50px;
+    font-size: 33px;
+    font-weight: 800;
+
+}
+.furniture01{
+    justify-content: center;
+    text-align: center;
+
+}
+.home_office{
+    font-size: 40px;
+    margin: 50px;
+    font-weight: 500;
+}
+.img_home_office{
+    display: flex;
+    margin: 30px 100px;
+}
+.home_chair img{
+    width: 550px;
+    margin:0px  50px;
+}
+.home_chair p {
+    color: rgb(37, 133, 133);
+    font-size: 20px;
+}
+.office_chair img{
+    width: 550px;
+    height: 370px;
+    margin:  0px 50px;
+    
+}
+.office_chair p{
+    color: rgb(37, 133, 133);
+    font-size: 20px;
+}
+.desks_chaie_tebel{
+    /* border: 2px solid black; */
+    justify-content: center;
+    text-align: center;
+}
+.explore{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 60px;
+}
+.img_desks_chair_tebel{
+    display: flex;
+    margin: 10px 158px;
+}
+.desk01 img{
+    width: 350px;
+    height: 500px;
+    margin:0px  20px;
+}
+.desk01{
+    font-size: 20px;
+}
+.chair img{
+    width: 350px;
+    height: 500px;
+    margin:0px  20px;
+}
+.chair{
+    font-size: 20px;
+}
+.accessories img{
+    width: 350px;
+    height: 500px;
+    margin:0px  20px;
+}
+.accessories{
+    font-size: 20px;
+}
+#shope_collection{
+    font-size: 15px;
+    padding: 15px 45px;
+    margin: 35px;
+    background-color: rgb(5, 61, 43);
+    color: rgb(208, 214, 220);
+}
+.littel_bit_differaent{
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: rgb(233, 230, 228);
+    padding: 15px 100px;
+    color: rgb(87, 84, 84);
+}
+.bit_different01{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.bit_different02{
+    font-size: 18px;
+    margin: 10px;
+}
+.fourth_different{
+    display: flex;
+    padding: 20px;
+    
+}
+#first_img{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 50px;
+    list-style: none;
+}
+.fourth_different ul li img{
+   width: 150px;
+   margin: 20px;
+}
+#second_img{
+    display: flex;
+    /* border: 2px solid black; */
+   margin: 50px;
+    background-color: white;
+    list-style: none;
+}
+.sell{
+    display: flex;
+    margin: 50px ;
+    color: rgb(129, 133, 137);
+
+}
+.direct_sell{
+    width: 500px;
+    color: rgb(96, 101, 107);
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.sell_share01{
+    font-size: 40px;
+}
+.sell_share02{
+    font-size: 20px;
+    margin: 10px;
+}
+#ccc1{
+    font-size: 15px;
+    padding: 15px 55px;
+    background-color: rgb(9, 68, 48);
+    color: aliceblue;
+    margin: 20px;
+}
+#box101{
+    width: 100px;
+}
+.box01{
+    display: flex;
+    margin: 0px 50px;
+}
+.box01 ul li{
+    list-style: none;
+    margin: 55px 0px;
+    font-size: 18px;
+}
+#box102 {
+    display: flex;
+    margin: 0px 0px;
+}
+.box02{
+    width: 100px;
+    height: 400px;
+    margin: 0px 15px;
+    background-color: rgb(184, 163, 136);
+    
+}
+.box02 p{
+    position: relative;
+    top: 410px;
+}
+.box03{
+    width: 100px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 2px dashed rgb(25, 24, 24);
+    margin-left: 100px;
+}
+.box04{
+    
+    height: 200px;
+    background-color: rgb(18, 38, 73);
+    z-index: 5;
+    position: relative;
+    top: 50%;
+    
+}
+.box03 p{
+    position: relative;
+    top: 210px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(10, 91, 64);
+}
+.our_best_sellar{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.our_bestsellar{
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: rgb(221, 221, 216);
+}
+.our_product{
+    display: flex;
+    margin: 50px 180px;
+}
+.abc01{
+    border: 2px solid rgb(153, 150, 150);
+    margin: 10px;
+    height: 380px;
+    background-color: rgb(125, 126, 106);
+}
+.abc01 img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+#see_all_product{
+    padding: 15px 70px;
+    margin-bottom: 50px;
+    background-color: rgb(14, 79, 57);
+    color: rgb(241, 238, 238);
+    font-size: 15px;
+}
+.freeshipping{
+    padding:80px 150px;
+    border: 2ps solid red;
+    background-color: rgb(139, 68, 17);
+    color: white;
+}
+.freeshipping ul{
+    display: flex;
+    list-style: none;
+}
+.freeshipping ul p{
+    font-size: 30px;
+    width: 500px;
+    padding: 5px;
+}
+.freeshipping ul li .a101{
+    font-size: 25px;
+    margin-left: 100px;
+}
+.space_and_get{
+    display: flex;
+}
+.space{
+    padding: 180px;
+    width: 550px;
+    color: rgb(102, 109, 115);
+}
+.team_member{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.team_member01{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.list {
+    display: flex;
+}
+.list li{
+    display: flex;
+    margin: 0px 10px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(8, 96, 96);
+}
+#members{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#members .kk1{
+    width: 230px;
+    height: 280px;
+   border: 1px solid rgb(178, 170, 170);
+   margin:50px 20px;
+   justify-content: center;
+   text-align: center;
+   color: rgb(100, 106, 110);
+   
+}
+.kk1 img{
+    width: 90px;
+}
+.kk1 .ss{
+    font-size: 18px;
+}
+.kk1 .ss2{
+     margin: 20px;
+     
+}
+.fifth_container{
+    background-color: rgb(12, 62, 46);
+}
+.contact_list nav{
+    display: flex;
+    padding: 100px;
+    color: rgb(176, 181, 185);
+}
+.contact_list nav li{
+    list-style: none;
+    margin: 0px 50px;
+    width: 120px;
+    
+}
+.kri1{
+    font-size: 30px;
+    width: 700;
+    margin:5px 0px;
+}
+.contact_list nav li .kri3{
+    display: flex;
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    margin: 5px;
+}
+nav .shope01{
+    font-size: 17px;
+    width: 50px;
+}
+nav .submit{
+    padding: 15px 20px;
+}
+.rr1{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+nav .submit .news{
+    margin: 15px;
+    width: 300px;
+    font-size: 15px;
+    
+    
+}
+nav .submit .submit01{
+    font-size: 15px;
+    padding: 10px 50px;
+    background-color: rgb(145, 158, 154);
+    color: white;
+    width: 300px;
+    margin: 10px;
+    
+}
